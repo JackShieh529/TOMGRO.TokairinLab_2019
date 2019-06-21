@@ -1,0 +1,3 @@
+g++ lib.cpp -c : Make a .o file
+ar -rc 1.o 2.o 3.o : Bunche the .o files
+g++ -o main.exe main.cpp lib.a : Convert cpp to exe with libraries
