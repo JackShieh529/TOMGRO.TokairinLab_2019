@@ -15,6 +15,7 @@ class FileIO{
   private:
     std::vector<std::string> split(std::string& input, char delimiter);
     std::string fixIndex(std::string name, int i);
+    void change(table<double>& variables, std::string name, double val);
 
   public:
     void test();

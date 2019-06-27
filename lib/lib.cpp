@@ -18,6 +18,17 @@ namespace tomgro{
   std::string FileIO::fixIndex(std::string name, int i){
     return name + "(" + std::to_string(i) + ")";
   }
+
+  void FileIO::change(table<double>& variables, std::string name, double val){
+    auto itr = variables.find(name);
+    if(itr != variables.end()){
+      variables[name] = val;
+      std::cout << "CHANGE:" << name << std::endl;
+    }else{
+      variables.insert(param{name, val});
+      std::cout << "ADD:" << name << ":" << val << std::endl;
+    }
+  }
   /**********/
 
   void FileIO::test(){
@@ -29,7 +40,7 @@ namespace tomgro{
     std::ifstream ifs(fileName);
     std::vector<std::string> pair(2);
     if(!ifs.is_open()){
-      variables.insert(param{"Error", -1}); //fault to open
+      change(variables, "Error", -1); //fault to open
       return;
     }
     
@@ -37,9 +48,9 @@ namespace tomgro{
       try{
         std::string buffer;
         ifs >> buffer;
-        if(buffer == "") continue;
+        if(buffer == "" || buffer == "\n" || buffer == "\t" ) continue;
         pair = split(buffer, ',');
-        variables.insert(param{pair[0], std::stod(pair[1])});
+        change(variables, pair[0], std::stod(pair[1]));
       }catch(std::exception e_range){
         continue;
       }
@@ -49,17 +60,37 @@ namespace tomgro{
   void FileIO::initializeVariables(table<double>& variables){
     //C-13 Set initial values
     for(int i=0;i<variables["NL"];i++){
-      variables.insert(param{fixIndex("LVSN",i), 0});
-      variables.insert(param{fixIndex("STMS",i), 0});
-      variables.insert(param{fixIndex("WLVS",i), 0});
-      variables.insert(param{fixIndex("WSTM",i), 0});
-      variables.insert(param{fixIndex("LFAR",i), 0});
+      change(variables, fixIndex("LVSN",i), 0);
+      change(variables, fixIndex("STMS",i), 0);
+      change(variables, fixIndex("WLVS",i), 0);
+      change(variables, fixIndex("WSTM",i), 0);
+      change(variables, fixIndex("LFAR",i), 0);
     }
 
     for(int i=0;i<variables["NF"];i++){
-      variables.insert(param{fixIndex("FRTN",i), 0});
-      variables.insert(param{fixIndex("WFRT",i), 0});
+      change(variables, fixIndex("FRTN",i), 0);
+      change(variables, fixIndex("WFRT",i), 0);
     }
+
+    change(variables, "PLSTN", variables["PLSTNI"]);
+    change(variables, "CPOOL", 0.0);
+    change(variables, "LVSN(0)", variables["LVSNI"]*variables["PLM2"]);
+    change(variables, "BTOTNLV", variables["LVSNi"]*variables["plm2"]);
+    change(variables, "STMS(0)", variables["LVSN(0)"]);
+    change(variables, "WLVS(0)", variables["WLVSI"]*variables["PLM2"]);
+    change(variables, "WSTM(0)", variables["WLVS(0)"]*variables["FRSTEM(0)"]);
+    change(variables, "LFAR(0)", variables["LFARI"]*variables["PLM2"]);
+    change(variables, "XLAI", variables["LFAR(0)"]);
+    change(variables, "TOTWML", 0.0);
+    change(variables, "ATL", 0.0);
+    change(variables, "ATV", 0.0);
+    change(variables, "TOTWST", 0.0);
+    change(variables, "WTOTF", 0.0);
+    change(variables, "ASTOTL", variables["XLAI"]);
+    change(variables, "WSTOTL", 0.0);
+    change(variables, "FWFR10", 0.0);
+    change(variables, "APFFW", 0.0);
+    change(variables, "ATT", 0.0);
   }
   //std::unordered_map<std::string, double> FileIO::inputWeather(std::string fileName);
 }
