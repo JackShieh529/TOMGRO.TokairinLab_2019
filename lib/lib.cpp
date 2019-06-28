@@ -18,18 +18,18 @@ namespace tomgro{
   std::string FileIO::fixIndex(std::string name, int i){
     return name + "(" + std::to_string(i) + ")";
   }
+  /**********/
 
   void FileIO::change(table<double>& variables, std::string name, double val){
     auto itr = variables.find(name);
     if(itr != variables.end()){
       variables[name] = val;
-      std::cout << "CHANGE:" << name << std::endl;
+      std::cout << "CHANGE:" << name << ":" << val << std::endl;
     }else{
       variables.insert(param{name, val});
       std::cout << "ADD:" << name << ":" << val << std::endl;
     }
   }
-  /**********/
 
   void FileIO::test(){
     std::cout << "Hello World!" << std::endl;
@@ -92,5 +92,34 @@ namespace tomgro{
     change(variables, "APFFW", 0.0);
     change(variables, "ATT", 0.0);
   }
-  //std::unordered_map<std::string, double> FileIO::inputWeather(std::string fileName);
+
+  void FileIO::inputWeather(table<double>& variables, std::string fileName){
+    //C-20 Get weather parameters from fileName and set
+    std::ifstream ifs(fileName);
+    std::vector<std::string> pair;
+    std::string header[7] = {"year", "jd", "rad", "max_temp", "min_temp", "rain", "par"};
+
+    if(!ifs.is_open()){
+      change(variables, "Error", -1); //fault to open
+      return;
+    }
+    
+    int row = -2;
+    while (!ifs.eof()){
+      try{
+        std::string buffer;
+        ifs >> buffer;
+        row++;
+        if(row < 0) continue;
+        if(buffer == "" || buffer == "\n" || buffer == "\t" ) continue;
+        pair = split(buffer, ',');
+        //For waeather file
+        for(int col=0;col<pair.size();col++){
+          change(variables, fixIndex(header[col], row), std::stod(pair[col]));
+        }
+      }catch(std::exception e_range){
+        continue;
+      }
+    }
+  }
 }
