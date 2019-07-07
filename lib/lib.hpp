@@ -44,5 +44,9 @@ class Calc{
     void devfast(table<double>& var);
     void photo(table<double>& var);
     void resp(table<double>& var);
+    void dmrate(table<double>& var);
+    void devrate(table<double>& var);
+    void losrate(table<double>& var);
+    void intgrat(table<double>& var);
 };
 }

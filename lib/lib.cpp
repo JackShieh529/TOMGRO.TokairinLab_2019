@@ -309,4 +309,191 @@ namespace tomgro{
     var["MAINTF"] = var["TEFF"] * (var["RMRL"] * (var["TOTWST"] + var["WSTOTL"]) + var["RMRF"] * var["WTOTF"]);
     //std::cout << var["TEFF"] << " " << var["RMRL"] << " " << var["TOTWST"] << " " << var["WSTOTL"] << " " << var["WTOTF"] << std::endl;
   }
+
+  void Calc::dmrate(table<double>& var){
+    //C-8
+    var["PARSLA"] = 1.0 - tabex(var, "PART", "XPART", var["PAR"], 5);
+    var["ESLA"] = var["STDSLA"] * var["PARSLA"] / (var["TSLA"] * var["CSLA"]);
+    var["ESLA"] = std::min(0.018, var["ESLA"]);
+    var["ESLA"] = std::min(var["SLAMX"], var["ESLA"]);
+    var["TRCDRW"] = (var["GP"] / var["PLTM2V"] - var["MAINT"]) * var["GREF"];
+    var["TRCDRW"] = std::min(var["TRCDRW"], 0.0);
+    var["RCDRW"] = var["TRCDRW"] * (1.0 - tabex(var, "PROOT", "XROOT", var["PLSTN"], 6.0)) * (std::min(std::max(var["EPS"], var["CLSDML"]) / var["ZBENG"], 1.0) * var["TEMFAC"]);
+    var["PTNLVS"] = 0.0;
+    var["PTNSTM"] = 0.0;
+    for(int i=0;i<var["NL"];i++){
+      var["XBOX"] = (i+1) * 100.0 / var["NL"];
+      var[fileio->fixIndex("RCLFA", i)] = var[fileio->fixIndex("LVSN", i)] * tabex(var, "POL", "BOX", var["XBOX"], 10.0) * var["TEMFAC"] * var["FCO2D"];
+      var["FRPT"] = tabex(var, "FRPET", "BOX", var["XBOX"], 10);
+      var["FRST"] = tabex(var, "FRSTEM", "BOX", var["XBOX"], 10);
+      var[fileio->fixIndex("PNLVS", i)] = (var[fileio->fixIndex("RCLFA", i)] / (tabex(var, "ASLA", "BOX", var["XBOX"], 10) * var["ESLA"])) * (1.0 + var["FRPT"]);
+      var["PTNLVS"] = var["PTNLVS"] + var[fileio->fixIndex("PNLVS", i)];
+      var[fileio->fixIndex("PNSTM", i)] = var[fileio->fixIndex("PNLVS", i)] / (var[fileio->fixIndex("LVSN", i)] + var["ESP"]) * var["FRST"] * var[fileio->fixIndex("STMS", i)];
+      var["PTNSTM"] = var["PTNSTM"] + var[fileio->fixIndex("PNSTM", i)];
+    }
+    var["PTNFRT"] = 0.0;
+    for(int i=0;i<var["NF"];i++){
+      var["ZZX"] = std::min(1.0, std::max(var["EPS"], 2.0 - var[fileio->fixIndex("AVWF", i)] / var["MAVF"]));
+      var["XBOX"] = (i+1) * 100.0 / var["NF"];
+      var[fileio->fixIndex("PNFRT", i)] = var[fileio->fixIndex("FRTN", i)] * tabex(var, "POF", "BOX", var["XBOX"], 10) * var["TEMFAC"] * var["FCO2D"] * var["ZZX"];
+      var["PTNFRT"] = var["PTNFRT"] + var[fileio->fixIndex("PNFRT", i)];
+    }  
+    var["PNGP"] = var["PTNLVS"] + var["PTNFRT"] + var["PTNSTM"];
+    var["TOTDML"] = std::min(var["RCDRW"] * var["PTNLVS"] / (var["PNGP"] + var["EPS"]), var["PTNLVS"]);
+    var["TOTDMS"] = std::min(var["RCDRW"] * var["PTNSTM"] / (var["PNGP"] + var["EPS"]), var["PTNSTM"]);
+    var["TOTDMF"] = std::min(var["RCDRW"] * var["PTNFRT"] / (var["PNGP"] + var["EPS"]), var["PTNFRT"]);
+    var["TOPGR"] = var["TOTDMF"] + var["TOTDML"] + var["TOTDMS"];
+    var["EXCESS"] = var["RCDRW"] - var["TOPGR"];
+    var["CLSDMF"] = 1.0;
+    if(var["PTNFRT"] > 0.0) var["CLSDMF"] = var["TOTDMF"] / (var["PTNFRT"] + var["EPS"]);
+    var["CLSDML"] = var["TOTDML"] / (var["PTNLVS"] + var["EPS"]);
+    for(int i=0;i<var["NL"];i++){
+      var[fileio->fixIndex("RCWLV", i)] = var["TOTDML"] * var[fileio->fixIndex("PNLVS", i)] / (var["PTNLVS"] + var["EPS"]);
+      var[fileio->fixIndex("RCWST", i)] = var["TOTDMS"] * var[fileio->fixIndex("PNSTM", i)] / (var["PTNSTM"] + var["EPS"]);
+      var["XBOX"] = (i+1) * 100.0 / var["NL"];
+      var["FRPT"] = tabex(var, "FRPET", "BOX", var["XBOX"], 10);
+      var[fileio->fixIndex("RCLFA", i)] = var[fileio->fixIndex("RCWLV", i)] * tabex(var, "ASLA", "BOX", var["XBOX"], 10) * var["ESLA"] / (1.0 + var["FRPT"]);
+    }
+    for(int i=0;i<var["NF"];i++){
+      var[fileio->fixIndex("RCWFR", i)] = var["TOTDMF"] * var[fileio->fixIndex("PNFRT", i)] / (var["PTNFRT"] + var["EPS"]);
+    }
+  }
+
+  void Calc::devrate(table<double>& var){
+    var["TPLA"] = 0.0;
+    if(var["PLSTN"] > var["FTRUSN"]) var["TPLA"] = var["TPL"];
+    var["RCNL"] = var["PLM2"] * var["GENR"] / (1.0 + var["TPLA"]);
+    var["RCST"] = var["PLM2"] * var["GENR"];
+    var["RCNF"] = var["GENR"] * tabex(var, "FPN", "XFPN", var["PLSTN"] - var["FRLG"], 10) * var["PLM2"];
+    var["RCNF"] = var["RCNF"] * std::max(1.0 - var["TTH"] / var["TTMX"], 0.0) * std::max(1.0 + var["TTL"] / var["TTMN"], 0.0);
+    var["PUSHL"] = var["RDVLV"] * var["NL"];
+    var["PUSHM"] = var["RDVFR"] * var["NF"];
+  }
+
+  void Calc::losrate(table<double>& var){
+    var["ABNF"] = 0.0;
+    if(var["TOTDMF"] >= var["EPS"]){
+      var["FABOR"] = std::min(1.0, 2.0 - var["ABORMX"] * var["CLSDML"]);
+      var["FABOR"] = std::max(0.0, var["FABOR"]);
+      var["TABOR"] = std::min(1.0, std::max(0.0, var["TTAB"]/var["TABK"]));
+      var["ABNF"] = var["FABOR"] * var["RCNF"] / var["PLTM2V"] + var["TABOR"] * var["RCNF"] / var["PLTM2V"];
+    }
+    var[fileio->fixIndex("DEAR", var["NL"])] = 0.0;
+    if(var["XLAI"] * var["PLTMV2"] > var["XLAIM"])  var[fileio->fixIndex("DEAR", var["NL"])] = var["XMRDR"] * std::min(var[fileio->fixIndex("LFAR", var["NL"])], (var["XLAI"] * var["PLTM2V"] - var["XLAIM"]) / var["PLTM2V"]);
+    var[fileio->fixIndex("DEAR", var["NL"])] = std::max(0.0, var[fileio->fixIndex("DEAR", var["NL"])]);
+    var["DATEZ"] = tabex(var, "DISDAT", "XDISDAT", var["TIME"], 12);
+
+    for(int i=0;i<var["NL"]-1;i++){
+      var["XBOX"] = (i+1) * 100.0 / var["NL"];
+      var[fileio->fixIndex("DEAR", i)] = tabex(var, "DIS", "BOX", var["XBOX"], 10) * var["DATEZ"];
+    }
+
+    for(int i=0;i<var["NL"];i++){
+      var[fileio->fixIndex("DENLR", i)] = var[fileio->fixIndex("LVSN", i)] * var[fileio->fixIndex("DEAR", i)];
+      var[fileio->fixIndex("DEWLR", i)] = var[fileio->fixIndex("DENLR", i)] * var[fileio->fixIndex("AVWL", i)];
+      var[fileio->fixIndex("DELAR", i)] = var[fileio->fixIndex("DEAR", i)] * var[fileio->fixIndex("LFAR", i)];
+    }
+
+    for(int i=0;i<var["NF"];i++){
+      var["XBOX"] = (i+1) * 100.0 / var["NF"];
+      var[fileio->fixIndex("DEAF", i)] = tabex(var, "DISF", "BOX", var["XBOX"], 10) * var["DATEZ"];
+      var[fileio->fixIndex("DENFR", i)] = var[fileio -> fixIndex("FRTN", i)] * var[fileio -> fixIndex("DEAF", i)];
+      var[fileio->fixIndex("DEWFR", i)] = var[fileio -> fixIndex("DENFR", i)] * var[fileio -> fixIndex("AVWF", i)];
+    }
+  }
+
+  void Calc::intgrat(table<double>& var){
+    var["CPOOL"] = var["CPOOL"] + (var["GP"] - var["RCDRW"] / var["GREF"] - var["MAINT"]) * var["DELT"];
+    var["PLSTN"] = var["PLSTN"] + var["GENR"] * var["DELT"];
+    var[fileio->fixIndex("LVSN", var["NL"])] = var[fileio->fixIndex("LVSN", var["NL"])] + (var["PUSHL"] * var[fileio->fixIndex("LVSN", var["NL"]-1)] - var[fileio->fixIndex("DENLW", var["NL"])]) * var["DELT"];
+    var[fileio->fixIndex("WLVS", var["NL"])] = var[fileio->fixIndex("WLVS", var["NL"])] + (var["PUSHL"] * var[fileio->fixIndex("WLVS", var["NL"]-1)] - var[fileio->fixIndex("DEWLR", var["NL"])]) * var["DELT"];
+    var[fileio->fixIndex("LFAR", var["NL"])] = var[fileio->fixIndex("LFAR", var["NL"])] + (var["PUSHL"] * var[fileio->fixIndex("LFAR", var["NL"]-1)] - var[fileio->fixIndex("DELAR", var["NL"])]) * var["DELT"];
+    var[fileio->fixIndex("STMS", var["NL"])] = var[fileio->fixIndex("STMS", var["NL"])] + var["PUSHL"] * var[fileio->fixIndex("STMS", var["NL"]-1)] * var["DELT"];
+    var[fileio->fixIndex("WSTM", var["NL"])] = var[fileio->fixIndex("WSTM", var["NL"])] + var["PUSHL"] * var[fileio->fixIndex("WSTM", var["NL"]-1)] * var["DELT"];
+
+    for(int i=1;i<var["NL"]-1;i++){
+      int ii = var["NL"] - i + 1;
+      var[fileio->fixIndex("LVSN", ii)] = var[fileio->fixIndex("LVSN", ii)] + var["PUSHL"] * (var[fileio->fixIndex("LVSN", ii-1)] - var[fileio->fixIndex("LVSN", ii)]) * var["DELT"] - var[fileio->fixIndex("DENLR", ii)] * var["DELT"];
+      var[fileio->fixIndex("STMS", ii)] = var[fileio->fixIndex("STMS", ii)] + var["PUSHL"] * (var[fileio->fixIndex("STMS", ii-1)] - var[fileio->fixIndex("STMS", ii)]) * var["DELT"];
+      var[fileio->fixIndex("WLVS", ii)] = var[fileio->fixIndex("WLVS", ii)] + var["PUSHL"] * (var[fileio->fixIndex("WLVS", ii-1)] - var[fileio->fixIndex("WLVS", ii)]) + var[fileio->fixIndex("RCWLV", ii)] * var["DELT"] - var[fileio->fixIndex("DEWLR", ii)] * var["DELT"];
+      var[fileio->fixIndex("WSTM", ii)] = var[fileio->fixIndex("WSTM", ii)] + (var["PUSHL"] * (var[fileio->fixIndex("WSTM", ii-1)] - var[fileio->fixIndex("WSTM", ii)]) + var[fileio->fixIndex("RCWST", ii)]) * var["DELT"];
+      var[fileio->fixIndex("LFAR", ii)] = var[fileio->fixIndex("LFAR", ii)] + (var["PUSHL"] * (var[fileio->fixIndex("LFAR", ii-1)] - var[fileio->fixIndex("LFAR", ii)]) + var[fileio->fixIndex("RCWST", ii)]) * var["DELT"] - var[fileio->fixIndex("DELAR", ii)] * var["DELT"];
+    }
+
+    var["LVSN(0)"] = (var["RCNL"] - var["PUSHL"] * var["LVSN(0)"]) * var["DELT"] + var["LVSN(0)"] - var["DENLR(0)"] * var["DELT"];
+    var["STMS(0)"] = var["STMS(0)"] + (var["RCST"] - var["PUSHL"] * var["STMS(0)"]) * var["DELT"];
+    var["WLVS(0)"] = (var["RCNL"] * var["WPLI"] - var["PUSHL"] * var["WLVS(0)"] + var["RCWLV(0)"]) * var["DELT"] + var["WLVS(0)"] - var["DEWLR(0)"] * var["DELT"];
+    var["WSTM(0)"] = var["WSTM(0)"] + (var["RCST"] * var["WPLI"] * var["FRSTEM(0)"] - var["PUSHL"] * var["WSTM(0)"] + var["RCWST(0)"]) * var["DELT"];
+    var["FRPT"] = 1.0 + var["FRPET(0)"];
+    var["LFAR(0)"] = (var["RCNL"] * var["WPLI"] * var["ESLA"] * var["ASLA(0)"] / var["FRPT"] - var["PUSHL"] * var["LFAR(0)"] + var["RCLFA(0)"]) * var["DELT"] + var["LFAR(0)"] - var["DELAR(0)"] * var["DELT"];
+
+    var[fileio->fixIndex("FRTN", var["NF"])] = var[fileio->fixIndex("FRTN", var["NF"])] + (var["PUSHM"] * var[fileio->fixIndex("FRTN", var["NF"]-1)] - var[fileio->fixIndex("DENFR", var["NF"])]) * var["DELT"];
+    var[fileio->fixIndex("WFRT", var["NF"])] = var[fileio->fixIndex("WFRT", var["NF"])] + (var["PUSHM"] * var[fileio->fixIndex("WFRT", var["NF"]-1)] - var[fileio->fixIndex("DEWFR", var["NF"])]) * var["DELT"];
+
+    for(int i=1;i<var["NF"]-1;i++){
+      int ii = var["NF"] - i + 1;
+      var[fileio->fixIndex("FRTN", ii)] = var[fileio->fixIndex("FRTN", ii)] + var["PUSHM"] * (var[fileio->fixIndex("FRTN", ii-1)] - var[fileio->fixIndex("FRTN", ii)]) * var["DELT"] - var[fileio->fixIndex("DENFR", ii)] * var["DELT"];
+      var[fileio->fixIndex("WFRT", ii)] = var[fileio->fixIndex("WFRT", ii)] + (var["PUSHM"] * (var[fileio->fixIndex("WFRT", ii-1)] - var[fileio->fixIndex("WFRT", ii)]) + var[fileio->fixIndex("RCWFR", ii)]) * var["DELT"] - var[fileio->fixIndex("DEWFR", ii)] * var["DELT"];
+    }
+    var["FRTN(0)"] = (var["RCNF"] - var["ABNF"] - var["PUSHM"] * var["FRTN(0)"]) * var["DELT"] + var["FRTN(0)"] - var["DENFR(0)"] * var["DELT"];
+    var["WFRT(0)"] = ((var["RCNF"] - var["ABNF"]) * var["WPFI"] - var["PUSHM"] * var["WFRT(0)"] + var["RCWFR(0)"]) * var["DELT"] + var["WFRT(0)"] - var["DEWFR(0)"] * var["DELT"];
+    
+    var["XLAI"] = 0.0;
+    var["TWTLAI"] = 0.0;
+    var["TOTNLV"] = 0.0;
+    var["TOTWML"] = 0.0;
+    var["TOTNST"] = 0.0;
+    var["TOTWST"] = 0.0;
+    var["ATV"] = 0.0;
+
+    for(int i=0;i<var["NL"];i++){
+      var[fileio->fixIndex("AVWL", i)] = var[fileio->fixIndex("WLVS", i)] / (var[fileio->fixIndex("LVSN", i)] + var["EPS"]);
+      var["XLAI"] = var["XLAI"] + var[fileio->fixIndex("LFAR", i)];
+      var["TOTNLV"] = var["TOTNLV"] + var[fileio->fixIndex("LVSN", i)];
+      var["TOTWML"] = var["TOTWML"] + var[fileio->fixIndex("WLVS", i)];
+      var["ATL"] = var["ALT"] + var[fileio->fixIndex("DEWLR", i)] * var["DELT"];
+      var["XBOX"] = (i+1) * 100 / var["NL"];
+      var["FRPT"] = tabex(var, "FRPET", "BOX", var["XBOX"], 10);
+      var["TWTLAI"] = var["TWTLAI"] + var[fileio->fixIndex("WLVS", i)] / (1.0 + var["FRPT"]);
+      var["TOTNST"] = var["TOTNST"] + var[fileio->fixIndex("STMS", i)];
+      var["TOTWST"] = var["TOTWST"] + var[fileio->fixIndex("WSTM", i)];
+    }
+
+    var["XSLA"] = var["XLAI"] / (var["TWTLAI"] + var["EPS"]) * 10000.0;
+    var["TOTWMF"] = 0.0;
+    var["TOTNF"] = 0.0;
+
+    for(int i=0;i<var["NF"];i++){
+      var[fileio->fixIndex("AVWL", i)] = var[fileio->fixIndex("WFRT", i)] / (var[fileio->fixIndex("FRTN", i)] + var["EPS"]);
+      var["TOTWMF"] = var["TOTWMF"] + var[fileio->fixIndex("WFRT", i)];
+      var["TOTNF"] = var["TOTNF"] + var[fileio->fixIndex("FRTN", i)];
+    }
+
+    var["WTOTF"] = var["TOTWMF"] - var[fileio->fixIndex("WFRT", var["NF"])];
+    var["TOTGF"] = var["TOTNF"] - var[fileio->fixIndex("FRTN", var["NF"])];
+    var["BTOTNLV"] = var["BTOTNLV"] + var["RCNL"] * var["DELT"];
+    var["DLN"] = (var["BTOTNLV"] - var["TOTNLV"]) / var["PLM2"];
+    var["TOTGL"] = 0.0;
+    var["ASTOTL"] = 0.0;
+    var["WSTOTL"] = var["TOTWML"] - var[fileio->fixIndex("WLVS", var["NL"])];
+    var["TOTGL"] = var["TOTNLV"] - var[fileio->fixIndex("LVSN", var["NL"])];
+    var["ASTOTL"] = var["XLAI"] - var[fileio->fixIndex("LFAR", var["NL"])];
+    var["TOTST"] = var["TOTNST"] - var[fileio->fixIndex("STMS", var["NL"])];
+    var["WSTOTS"] = var["TOTWST"] - var[fileio->fixIndex("WSTM", var["NL"])];
+    var["TOTDW"] = var["TOTWMF"] + var["TOTWML"] + var["TOTWST"];
+    var["TOTVM"] = var["TOTWML"] + var["TOTWST"];
+    var["ATV"] = var["TOTWML"] + var["TOTWST"] + var["ATL"];
+    var["ATT"] = var["ATV"] + var["TOTWMF"];
+    var["TOTNU"] = var["TOTNF"] + var["TOTNLV"];
+    var["NGP"] = var["TOTGL"] + var["TOTGF"] + var["TOTST"]; 
+    var["RVRW"] = var["TOTWMF"] / (var["TOTWML"] + var["EPS"]);
+    var["RRRW"] = var["TOTWMF"] / (var["TOTDW"] + var["EPS"]);
+    var["RVRN"] = var["TOTNF"] / (var["TOTNLV"] + var["EPS"]);
+    var["RTRN"] = var["TOTNF"] / (var["TOTNU"] + var["EPS"]);
+    var["AVWMF"] = var["TOTWMF"] / (var["TOTNF"] + var["EPS"]);
+    var["AVWML"] = var["TOTWML"] / (var["TOTNLV"] + var["EPS"]);
+    var["DMCF84"] = tabex(var, "DMC84T", "XDMC", var["TIME"], 6);
+    var["FWFR10"] = var["FWFR10"] + (var["PUSHM"] * var[fileio->fixIndex("WFRT", var["NF"]-1)] * var["DELT"]) * 100.0 / var["DMCF84"];
+    var["APFFW"] = ((var["PUSHM"] * std::min(var[fileio->fixIndex("WFRT", var["NF"]-1)], 0.0) * var["DELT"]) * 100.0 / var["DMCF84"]) / ((var["PUSHM"] * var[fileio->fixIndex("FRTN", var["NF"]-1)] * var["DELT"]) + var["EPS"]);
+  }
 }

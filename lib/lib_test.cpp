@@ -1,3 +1,9 @@
+/*****
+1. 変数名打ち間違い
+2. minとmaxの打ち間違い
+3. カウンター変数(1 -> 0 にしてる)による誤計算
+*****/
+
 #include "lib.hpp"
 #include <map>
 
@@ -53,8 +59,39 @@ int main(){
     cl.resp(var);
 
     var["GPFN"] = (var["GPF"] - var["MAINTF"]) * var["GREF"];
+    var["GENR"] = var["GENR"] + var["GENRF"] * var["DTFAST"];
+    var["TEMFAC"] = var["TEMFAC"] + var["TEMFCF"] * var["DTFAST"];
+    var["RDVLV"] = var["RDVLV"] + var["RDVLVF"] * var["DTFAST"];
+    var["RDVFR"] = var["RDVFR"] + var["RDVLRF"] * var["DTFAST"];
+    var["TTH"] = var["TTH"] + var["TTHF"] * var["DTFAST"];
+    var["TTL"] = var["TTL"] + var["TTLF"] * var["DTFAST"];
+    var["TTAB"] = var["TTAB"] + var["TTABF"] * var["DTFAST"];
+    var["FCO2D"] = var["FCO2D"] + var["FCO2"] * var["DTFAST"];
+    var["TSLA"] = var["TSLA"] + var["TSLAF"] * var["DTFAST"];
+    var["CSLA"] = var["CSLA"] + var["CSLAF"];
+    var["GP"] = var["GP"] + var["GPF"] * var["DTFAST"];
+    var["MAINT"] = var["MAINT"] + var["MAINTF"] * var["DTFAST"];
 
-    std::cout << var["MAINTF"] << std::endl;
+    if(var["NCSLA"] == 0) var["CSLA"] = 1.0;
+    else var["CSLA"] = var["CSLA"] / var["NCSLA"];
+
+    var["TSLA"] = std::max(var["TSLA"], 0.1);
+
+    cl.dmrate(var);
+    cl.devrate(var);
+    cl.losrate(var);
+
+    double itrtnum = 0.0;
+    while(var["JDAY"] == 0 && itrtnum < 1 || itrtnum > 20){
+      std::cin >> itrtnum;
+      var["ITRTNUM"] = itrtnum;
+    }
+
+    std::cout << "Simulation continues ... Please wait." << std::endl;
+
+    
+
+    //std::cout << var["MAINTF"] << std::endl;
   }
 
   return 0;
