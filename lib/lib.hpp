@@ -37,7 +37,12 @@ class Calc{
   public:
   Calc();
     Calc(FileIO* pfileio);
-    void sunrise(table<double>& val);
-    void calcWeather(table<double>& val);
+    void sunrise(table<double>& var);
+    double tabex(table<double>& var, std::string val, std::string arg, double dummy, int k);
+    void calcWeather(table<double>& var);
+    void ghouse(table<double>& var);
+    void devfast(table<double>& var);
+    void photo(table<double>& var);
+    void resp(table<double>& var);
 };
 }

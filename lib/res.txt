@@ -1,0 +1,4142 @@
+Do you want constant environment? [Y/N]:
+Input the day and night temperatures and the hours of daytime temperature and CO2(e.g. 28.0 16.5 13.0 950.0):
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:-1
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:0
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:1
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:2
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:3
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:4
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:5
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:6
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:7
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:8
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:9
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:10
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:11
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:12
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:13
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:14
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:15
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:16
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:17
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:18
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:19
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:20
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:21
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:22
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:23
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:24
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:25
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:26
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:27
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:28
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:29
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:30
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:31
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:32
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:33
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:34
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:35
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:36
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:37
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:38
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:39
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:40
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:41
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:42
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:43
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:44
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:45
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:46
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:47
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:48
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:49
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:50
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:51
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:52
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:53
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:54
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:55
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:56
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:57
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:58
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:59
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:60
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:61
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:62
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:63
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:64
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:65
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:66
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:67
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:68
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:69
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:70
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:71
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:72
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:73
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:74
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:75
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:76
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:77
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:78
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:79
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:80
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:81
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:82
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:83
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:84
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:85
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:86
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:87
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:88
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:89
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:90
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:91
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:92
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:93
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:94
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:95
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:96
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:97
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:98
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:99
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:100
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:101
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:102
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:103
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:104
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:105
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:106
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:107
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:108
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:109
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:110
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:111
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:112
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:113
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:114
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:115
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:116
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:117
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:118
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:119
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:120
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:121
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:122
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:123
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:124
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:125
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:126
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:127
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:128
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:129
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:130
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:131
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:132
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:133
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:134
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:135
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:136
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:137
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:138
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:139
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:140
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:141
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:142
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:143
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:144
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:145
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:146
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:147
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:148
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:149
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:150
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:151
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:152
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:153
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:154
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:155
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:156
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:157
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:158
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:159
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:160
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:161
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:162
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:163
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:164
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:165
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:166
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:167
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:168
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:169
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:170
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:171
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:172
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:173
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:174
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:175
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:176
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:177
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:178
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:179
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:180
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:181
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:182
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:183
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:184
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:185
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:186
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:187
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:188
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:189
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:190
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:191
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:192
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:193
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:194
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:195
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:196
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:197
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:198
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:199
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:200
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:201
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:202
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:203
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:204
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:205
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:206
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:207
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:208
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:209
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:210
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:211
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:212
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:213
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:214
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:215
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:216
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:217
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:218
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:219
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:220
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:221
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:222
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:223
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:224
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:225
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:226
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:227
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
+arg:XCO2LT val:CO2LT
+arg:0 val:0 dummy:228
+arg:HOURS val:THR
+arg:0 val:19.4994 dummy:0
+arg:HOURS val:RAD
+arg:0 val:0 dummy:0
+arg:XTEM val:GENTEM
+arg:0 val:0 dummy:-nan
+arg:XGEN val:GENRAT
+arg:10 val:0.55 dummy:6
+arg:XLV val:RDVLVT
+arg:0 val:0 dummy:-nan
+arg:XFRT val:RDVFRT
+arg:0 val:0 dummy:-nan
+arg:XAEFT val:AEFT
+arg:20 val:0 dummy:6
+arg:TMPG val:PGRED
+arg:0 val:0 dummy:-nan
