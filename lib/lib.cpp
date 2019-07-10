@@ -3,8 +3,6 @@
 namespace tomgro{
   using param = std::pair<std::string, double>;
 
-  ///PRIVATE FUNCTION
-  /**********/
   std::vector<std::string> FileIO::split(std::string& input, char delimiter){
     std::istringstream stream(input);
     std::string field;
@@ -14,7 +12,6 @@ namespace tomgro{
     }
     return result;
   }
-  /**********/
 
   FileIO::FileIO(){
     calc = new Calc(this);
@@ -108,6 +105,8 @@ namespace tomgro{
       change(var, "Error", -1); //fault to open
       return;
     }
+
+    var["NEW"] = 0; //0:First work
     
     //First data
     change(var, "XLAT", 31.2);
@@ -115,13 +114,10 @@ namespace tomgro{
     change(var, "PARFAC", 12.07);
     change(var, "PARDAT", 0.5); //?
 
-    int row = -2;
     while (!ifs.eof()){
       try{
         std::string buffer;
         ifs >> buffer;
-        row++;
-        if(row < 0) continue;
         if(buffer == "" || buffer == "\n" || buffer == "\t" ) continue;
         pair = split(buffer, ',');
         //For waeather file
@@ -135,6 +131,26 @@ namespace tomgro{
     change(var, "XLANG", var["SOLRAD"]*23.923);
     calc->sunrise(var);
     if(var["PARDAT"] < 0) var["PARO"] = var["XLANG"] / var["PARFAC"];
+  }
+
+  void FileIO::output(table<double>& var){
+    //C-23
+    var["TOTNLV/PLM2"] = var["TOTNLV"] / var["PLM2"];
+    std::string data1[] = {"DATE", "PLSTN", "XLAI", "TOTNLV/PLM2", "TOTWML", 
+      "TOTNF", "TOTWMF", fixIndex("FRTN", var["NF"]), fixIndex("WFRT", var["NF"]), "XSLA", 
+      "ASTOTL", "GP", "MAINT", "TRCDRW", "RCDRW", "FWFR10", "TOTWST",
+      "APFFW", "TOTVW", "TOTDW", "DLN", "CLSDML", "TEMFAC", "ATL", "ATV", "ATT"};
+    std::string data2[] = {"DATE", "ATV", "LVSN(4)", "LVSN(9)", "LVSN(14)", "LVSN(19)", 
+      "FRTN(0)", "FRTN(4)", "FRTN(9)", "FRTN(14)", "FRTN(19)", "ABFN"};
+
+    for(std::string data : data1){
+      //std::cout << data << ":" << var[data] << " ";
+    }
+    //std::cout << "\n";
+    for(std::string data : data2){
+      //std::cout << data << ":" << var[data] << " ";
+    }
+    //std::cout << "\n";
   }
 
   Calc::Calc(){}
@@ -166,9 +182,12 @@ namespace tomgro{
     for(i=1;i<k;i++){
       if(dummy <= var[fileio->fixIndex(arg, i)]) break;
     }
-    //std::cout << "arg:" << arg << " val:" << val << std::endl;
-    //std::cout << "arg:" << var[fileio->fixIndex(arg, i)] << " val:" << var[fileio->fixIndex(val, i)] << " dummy:" << dummy << std::endl;
-    return (dummy - var[fileio->fixIndex(arg, i-1)]) * (var[fileio->fixIndex(val, i-1)] - var[fileio->fixIndex(val, i)]) / (var[fileio->fixIndex(arg, i)] - var[fileio->fixIndex(arg, i-1)]) + var[fileio->fixIndex(arg, i-1)];
+   //std::cout << "\tnannanTABEX:dummy:" << dummy << ", i:" << i << std::endl;
+    //std::cout << "\tnannanTABEX(" << fileio->fixIndex(val, i) << "&"<< fileio->fixIndex(arg, i) << "):" << var[fileio->fixIndex(val, i-1)] << " " << var[fileio->fixIndex(val, i)] << " " << var[fileio->fixIndex(arg, i-1)] << " " << var[fileio->fixIndex(arg, i)] << std::endl;
+    double ans = (dummy - var[fileio->fixIndex(arg, i-1)]) * (var[fileio->fixIndex(val, i-1)] - var[fileio->fixIndex(val, i)]) / (var[fileio->fixIndex(arg, i)] - var[fileio->fixIndex(arg, i-1)]) + var[fileio->fixIndex(arg, i-1)];
+    //std::cout << "\tnannanTABEXans:" << ans << std::endl;
+    if(ans == 0) ans = 0.0000001;
+    return ans;
   }
 
   void Calc::calcWeather(table<double>& var){
@@ -222,7 +241,8 @@ namespace tomgro{
       var["IENV"] = 0;
       char ans = 'N';
       std::cout << "Do you want constant environment? [Y/N]:" << std::endl;
-      std::cin >> ans;
+      ans = 'Y';
+      //std::cin >> ans;
       if(ans == 'y' || ans == 'Y'){
         var["IENV"] = 1;
         std::cout << "Input the day and night temperatures and " <<
@@ -274,7 +294,7 @@ namespace tomgro{
       var["FCO2"] = 1.0 + var["SCO2"] * (var["CO2AVG"] - 350) * var["AMIN1"] * std::min(1.0, 20/var["PLSTN"]);
     }
     var["TEMFCF"] = tabex(var, "GENTEM", "XTEM", var["TMPA"], 6);
-    var["GENRF"] = std::min(std::min(var["EPS"], var["CLSDML"])/var["GENFA"],1.0) * var["TEMFCF"] * tabex(var, "GENRAT", "XGEN", var["PLSTN"], 6);
+    var["GENRF"] = std::min(std::min(var["EPS"], var["CLSDML"])/var["GENFAC"],1.0) * var["TEMFCF"] * tabex(var, "GENRAT", "XGEN", var["PLSTN"], 6);
     var["RDVLVF"] = tabex(var, "RDVLVT", "XLV", var["TMPA"], 9) * var["SPTEL"] * var["FCO2"];
     var["RDVFRF"] = tabex(var, "RDVFRT", "XFRT", var["TMPA"], 9) * var["SPTEL"] * var["FCO2"];
     var["TTHF"] = 0;
@@ -328,7 +348,8 @@ namespace tomgro{
       var["FRST"] = tabex(var, "FRSTEM", "BOX", var["XBOX"], 10);
       var[fileio->fixIndex("PNLVS", i)] = (var[fileio->fixIndex("RCLFA", i)] / (tabex(var, "ASLA", "BOX", var["XBOX"], 10) * var["ESLA"])) * (1.0 + var["FRPT"]);
       var["PTNLVS"] = var["PTNLVS"] + var[fileio->fixIndex("PNLVS", i)];
-      var[fileio->fixIndex("PNSTM", i)] = var[fileio->fixIndex("PNLVS", i)] / (var[fileio->fixIndex("LVSN", i)] + var["ESP"]) * var["FRST"] * var[fileio->fixIndex("STMS", i)];
+      //std::cout << "(*>△<)nannan<" << var[fileio->fixIndex("LVSN", i)]+var["PSP"] << std::endl;
+      var[fileio->fixIndex("PNSTM", i)] = var[fileio->fixIndex("PNLVS", i)] / (var[fileio->fixIndex("LVSN", i)] + var["EPS"]) * var["FRST"] * var[fileio->fixIndex("STMS", i)];
       var["PTNSTM"] = var["PTNSTM"] + var[fileio->fixIndex("PNSTM", i)];
     }
     var["PTNFRT"] = 0.0;
@@ -339,6 +360,7 @@ namespace tomgro{
       var["PTNFRT"] = var["PTNFRT"] + var[fileio->fixIndex("PNFRT", i)];
     }  
     var["PNGP"] = var["PTNLVS"] + var["PTNFRT"] + var["PTNSTM"];
+    
     var["TOTDML"] = std::min(var["RCDRW"] * var["PTNLVS"] / (var["PNGP"] + var["EPS"]), var["PTNLVS"]);
     var["TOTDMS"] = std::min(var["RCDRW"] * var["PTNSTM"] / (var["PNGP"] + var["EPS"]), var["PTNSTM"]);
     var["TOTDMF"] = std::min(var["RCDRW"] * var["PTNFRT"] / (var["PNGP"] + var["EPS"]), var["PTNFRT"]);
@@ -403,6 +425,7 @@ namespace tomgro{
   }
 
   void Calc::intgrat(table<double>& var){
+    //C-16
     var["CPOOL"] = var["CPOOL"] + (var["GP"] - var["RCDRW"] / var["GREF"] - var["MAINT"]) * var["DELT"];
     var["PLSTN"] = var["PLSTN"] + var["GENR"] * var["DELT"];
     var[fileio->fixIndex("LVSN", var["NL"])] = var[fileio->fixIndex("LVSN", var["NL"])] + (var["PUSHL"] * var[fileio->fixIndex("LVSN", var["NL"]-1)] - var[fileio->fixIndex("DENLW", var["NL"])]) * var["DELT"];

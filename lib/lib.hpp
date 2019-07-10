@@ -11,7 +11,7 @@
 
 namespace tomgro{
 template <class T>
-using table = std::unordered_map<std::string, T>;
+using table = std::vector<std::pair<std::string, double>>;
 
 class FileIO;
 class Calc;
@@ -19,16 +19,17 @@ class Calc;
 class FileIO{
   private:
     Calc* calc;
-    std::vector<std::string> split(std::string& input, char delimiter);
 
   public:
     FileIO();
     void test();
+    std::vector<std::string> split(std::string& input, char delimiter);
     std::string fixIndex(std::string name, int i);
     void change(table<double>& variables, std::string name, double val);
     void inputData(table<double>& variables, std::string fileName);
     void initializeVariables(table<double>& variables);
     void inputWeather(table<double>& variables, std::string fileName);
+    void output(table<double>& variables);
 };
 
 class Calc{
