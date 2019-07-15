@@ -10,8 +10,10 @@
 #include <cmath>
 
 namespace tomgro{
-template <class T>
-using table = std::vector<std::pair<std::string, double>>;
+struct DefaultNum{
+  double value = 1e10;
+};
+using table = std::unordered_map<std::string, DefaultNum>;
 
 class FileIO;
 class Calc;
@@ -25,11 +27,11 @@ class FileIO{
     void test();
     std::vector<std::string> split(std::string& input, char delimiter);
     std::string fixIndex(std::string name, int i);
-    void change(table<double>& variables, std::string name, double val);
-    void inputData(table<double>& variables, std::string fileName);
-    void initializeVariables(table<double>& variables);
-    void inputWeather(table<double>& variables, std::string fileName);
-    void output(table<double>& variables);
+    void change(table& variables, std::string name, double val);
+    void inputData(table& variables, std::string fileName);
+    void initializeVariables(table& variables);
+    void inputWeather(table& variables, std::string fileName);
+    void output(table& variables);
 };
 
 class Calc{
@@ -38,16 +40,16 @@ class Calc{
   public:
   Calc();
     Calc(FileIO* pfileio);
-    void sunrise(table<double>& var);
-    double tabex(table<double>& var, std::string val, std::string arg, double dummy, int k);
-    void calcWeather(table<double>& var);
-    void ghouse(table<double>& var);
-    void devfast(table<double>& var);
-    void photo(table<double>& var);
-    void resp(table<double>& var);
-    void dmrate(table<double>& var);
-    void devrate(table<double>& var);
-    void losrate(table<double>& var);
-    void intgrat(table<double>& var);
+    void sunrise(table& var, std::string IJUL, std::string XSNUP, std::string XSNDN, std::string XLAT, std::string XLONG);
+    double tabex(table& var, std::string val, std::string arg, double dummy, int k);
+    void calcWeather(table& var);
+    void ghouse(table& var);
+    void devfast(table& var);
+    void photo(table& var);
+    void resp(table& var);
+    void dmrate(table& var);
+    void devrate(table& var);
+    void losrate(table& var);
+    void intgrat(table& var);
 };
 }
